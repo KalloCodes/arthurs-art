@@ -1,0 +1,125 @@
+:root {
+    background-color: var(--altpurple);
+    --altpurple: #BCBDEB;
+    --purple: #9A9CEA;
+    --midblue: #A2B9EE;
+    --lightblue: #A2DCEE;
+    --green: #ADEEE2;
+    --page-width: 700px;
+    /*If I change the width, remember to change the
+    JS code for the menu's margin too*/
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    background-color: white;
+    padding-top: 2%;
+}
+
+header {
+    font-size: 8rem;
+    text-align: center;
+    margin: 0;
+    padding: 0 5% 0 20%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 2.2rem;
+    width: 140px;
+}
+
+h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+    padding: 0 5% 0 20%;
+}
+
+a {
+    padding: 7% 5%;
+}
+
+#nav1 {
+    background-color: var(--purple);
+}
+
+#nav2 {
+    background-color: var(--midblue);
+}
+
+#nav3 {
+    background-color: var(--lightblue);
+}
+
+#nav4 {
+    background-color: var(--green);
+}
+
+#bio-div {
+    font-size: 2rem;
+    padding: 5% 5% 0 20%;
+    text-align: center;
+}
+
+#pic-div {
+    padding: 5% 0 15% 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#grid {
+    margin: 10% auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; 
+    column-gap: 10px;
+    row-gap: 15px;
+    /*
+    border: black;
+    border-style: dashed;
+    */
+}
+
+#contact-div {
+    padding: 10% 0 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    /*
+    border: black;
+    border-style: dashed;
+    */
+}
+
+#contact-sheet {
+    text-align: center;
+}
+
+#coder-div {
+    text-align: center;
+    margin: 0;
+    padding: 5% 5% 10px 50%;
+    font-size: 1.8rem;
+}
+
+img {
+    border: lightskyblue;
+    border-style: dashed;
+    height: 150px;
+    width: 180px;
+    background-color: var(--green);
+    justify-self: center
+}
+
+#profile-pic {
+    height: 200px;
+}
